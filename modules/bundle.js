@@ -52,14 +52,29 @@
 
 	var $ = __webpack_require__(3);
 
-	console.log($);
-	$(document).ready(function () {
-	  alert('dom准备完毕');
-	});
-	var aa = __webpack_require__(4);
-	console.log(aa);
-	console.log(aa.add(5));
-	console.log(aa.xx);
+	// console.log($);
+	// $(document).ready(
+	//   function(){
+	//     alert('dom准备完毕')
+	//   }
+	// )
+
+
+	// var aa = require('./text.js');
+	// console.log(aa);
+	// console.log(aa.add(5));
+	// console.log(aa.xx);
+
+	// var str = 666;
+	// aa.teacher(str);
+
+	// 命名导出，名称一致
+	// import {sum,snow} from './text.js';
+	// sum(5,6);
+	// console.log(snow.age)
+	// 默认导出，随意起名
+	// import aaa from './text.js';
+	// console.log(aaa);
 
 /***/ },
 /* 1 */
@@ -10703,21 +10718,6 @@
 	return jQuery;
 	} );
 
-
-/***/ },
-/* 4 */
-/***/ function(module, exports) {
-
-	"use strict";
-
-	function add(x) {
-	  return x;
-	}
-	var xx = 6;
-	module.exports = {
-	  add: add,
-	  xx: xx
-	};
 
 /***/ }
 /******/ ]);
