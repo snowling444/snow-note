@@ -1,10 +1,13 @@
 import React from 'react';
 
+import {fontColor} from './style';
+
+
 class Header extends React.Component{
   render(){
     let styles ={
       ul:{listStyle:'none'},
-      li:{color:'blue',display:'inline-block',marginLeft:'20px'}
+      li:{color:fontColor,display:'inline-block',marginLeft:'20px'}
     }
     return (
       <div className='header' style={{color:'#666',fontSize:'30px'}}>Header
