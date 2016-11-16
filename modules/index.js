@@ -1,9 +1,9 @@
-var path = require('path') ;
-
-console.log(path);
-
-
-var $ = require('jquery')
+// var path = require('path') ;
+//
+// console.log(path);
+//
+//
+// var $ = require('jquery')
 
 // console.log($);
 // $(document).ready(
@@ -11,6 +11,11 @@ var $ = require('jquery')
 //     alert('dom准备完毕')
 //   }
 // )
+
+
+//第三方模块(不需要写路径)
+import React from 'react';
+
 
 
 // var aa = require('./text.js');
@@ -28,3 +33,13 @@ var $ = require('jquery')
 // 默认导出，随意起名
 // import aaa from './text.js';
 // console.log(aaa);
+
+
+
+import {Cat,i} from './cat'
+
+let Dabai = new Cat;
+Dabai.sayHello();
+
+let i = 10;
+console.log(i);
