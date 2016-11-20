@@ -48,7 +48,15 @@ class Hello extends React.Component{
 //     )
 //   }
 // }
+
+
+// var ele = React.createElement(
+//   'div',
+//   {className:'saidbar'},
+//   'hello'
+// )
 ReactDOM.render(
+  // ele,
   <Hello/>,
   // <Text/>,
   // <div><Hello/><Text/></div>,

@@ -1,0 +1,5 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.menu{position: absolute;top: 0;width: 200px;height: 100vh;background-color: #ccc;transition: all 0.3s ease-in-out;}
+.menu h3{background-color: #058;text-align: center;height: 50px;line-height: 50px;}
+.menu p{text-align: center;margin-top: 20px;}
+.cover{position: absolute;top: 0;left: 0;bottom: 0;right: 0;background-color: rgba(0, 0, 0, 0.5);}
